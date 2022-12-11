@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0px;
+    left: 0px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+}
+h1,h2{
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+}
+p{
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #161c27;
+}
+#header{
+    background-color: #7A86B6;
+    box-shadow: 0px 5px 10px 2px #4e5676;
+    padding: 1rem ;
+    border-radius: 0px 0px 10px 10px;
+}
+.logo{
+    text-align: center;
+}
+.logo h2{
+    font-weight: bold;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#searchBar{
+    width: 50%;
+    background-color: #161c2743;
+    outline: none;
+    border: none;
+    border-top: 2px solid #A8A4CE;
+    border-left: 2px solid #A8A4CE;
+    border-bottom: 2px solid #A8A4CE;
+    border-radius: 10px 0px 0px 10px;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding-left: 5px;
+    font-family: "Roboto",Arial, Helvetica, sans-serif;
+}
+#searchBtn{
+    background-color: #161c27;
+    outline: none;
+    border: 2px solid #A8A4CE;
+    color: #FFFFFF;
+    border-radius: 0px 10px 10px 0px;
+    font-weight: bold;
+    width: 25%;
+}
+#searchBar::placeholder{
+    color: #FFFFFF;
+}
+#display,#display2{
+    background-color: #7A86B6;
+    box-shadow: 0px 0px 10px 5px #4e5676;
+    padding: 1.5rem ;
+    border-radius: 10px;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+}
+
+#display .curr_result,.smallCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid #161c27; */
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px #4e5676;
+}
+#display .curr_result .sun{
+    width: 3rem;
+}
+#display .smallCard .sun{
+    width: 2rem;
+}
+#display .curr_result h2{
+    font-weight: bold;
+}
+#display .curr_result p{
+    margin-top: 1rem;
+}
+#display .smallCard p{
+    margin-top: 1rem;
+}
+#display .curr_result,.smallCard p{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+#display .smallCard{
+    margin: 30px 10px 10px 0px;
+}
