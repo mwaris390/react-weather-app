@@ -18,3 +18,4 @@ The **Weather App** is developed using:
 - Axios 📡
 - Bootstrap 🌐
 - weatherApi⛈️
+- 3D icons
